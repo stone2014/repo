@@ -3,8 +3,8 @@ import pandas as pd
 # from pinotdb import connect
 from datetime import datetime
 import time
-import plotly.express as px
-import plotly.graph_objects as go 
+# import plotly.express as px
+# import plotly.graph_objects as go 
 import os
 import requests
 
