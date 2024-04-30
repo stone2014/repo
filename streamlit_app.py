@@ -8,11 +8,11 @@ import plotly.graph_objects as go
 import os
 import requests
 
-pinot_host=os.environ.get("PINOT_SERVER", "pinot-broker")
-pinot_port=os.environ.get("PINOT_PORT", 8099)
-conn = connect(pinot_host, pinot_port)
+# pinot_host=os.environ.get("PINOT_SERVER", "pinot-broker")
+# pinot_port=os.environ.get("PINOT_PORT", 8099)
+# conn = connect(pinot_host, pinot_port)
 
-delivery_service_api = "http://kafka-streams-quarkus:8080"
+# delivery_service_api = "http://kafka-streams-quarkus:8080"
 
 st.set_page_config(layout="wide")
 st.title("All About That Dough Dashboard 🍕")
